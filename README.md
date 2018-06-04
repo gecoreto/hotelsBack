@@ -1,28 +1,11 @@
-# Adonis API application
+# Hotel API application
 
-This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
+Aplicación creada con Adonisjs version 4
 
-1. Bodyparser
-2. Authentication
-3. CORS
-4. Lucid ORM
-5. Migrations and seeds
+## Instalar dependencias externas 
 
-## Setup
+Ejecutar `npm i` para descargar las dependencias.
 
-Use the adonis command to install the blueprint
+## Correr servidor
 
-```bash
-adonis new yardstick --api-only
-```
-
-or manually clone the repo and then run `npm install`.
-
-
-### Migrations
-
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
-```
+Ejecutar `node server --dev` para un servidor de desarrollo. Navegar a `http://127.0.0.1:3333/api/v1/hotels`.
